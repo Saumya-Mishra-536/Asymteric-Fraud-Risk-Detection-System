@@ -212,6 +212,11 @@ We go beyond accuracy:
 * Traditional model → MISSED ❌
 * Asymmetric model → DETECTED ✅
 
+
+
+Real data results — much more meaningful numbers
+MetricSymmetricAsymmetricPrecision0.1750.675F1 Score0.2920.743ROC-AUC0.9770.979Total Cost$2,265$535Expected Loss$47,910$35,691False Alarm Rate0.71%0.07%
+The asymmetric model reduces total cost by 76.4% and cuts false alarms by 10× — these are numbers worth presenting. The symmetric model's 405 false positives vs the asymmetric model's 39 is a stark, concrete story to tell.
 ---
 
 ## 🔮 Future Improvements
